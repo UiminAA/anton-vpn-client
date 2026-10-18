@@ -1,0 +1,11 @@
+dist/
+.cache/
+.qa/
+*.user
+*.log
+secrets/
+guiConfigs/
+binConfigs/
+guiTemps/
+assets/client.zip
+.qa/

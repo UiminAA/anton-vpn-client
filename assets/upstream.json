@@ -1,0 +1,197 @@
+{
+    "project":  "v2rayN",
+    "version":  "7.25.4",
+    "architecture":  "windows-amd64",
+    "variant":  "desktop self-contained",
+    "release":  "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
+    "release_api":  "https://api.github.com/repos/2dust/v2rayN/releases/tags/7.25.4",
+    "asset":  "https://github.com/2dust/v2rayN/releases/download/7.25.4/v2rayN-windows-64-desktop.zip",
+    "sha256":  "cccf12be605ce947cb7c4646bfa77a98f680f099f4bf2d76c6a5fee4d2eb3820",
+    "bytes":  143961123,
+    "expanded_bytes":  362383108,
+    "archive_prefix":  "v2rayN-windows-64/",
+    "entry_count":  40,
+    "contains_user_data":  false,
+    "core_versions":  {
+                          "sing_box":  "1.14.0",
+                          "sing_box_revision":  "0b8995879f29a9b98ee027bc17b75e101445b238",
+                          "xray":  "26.9.9",
+                          "xray_revision":  "52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120",
+                          "mihomo":  "1.19.29",
+                          "mihomo_revision":  "e26714a181ac0e2fa803453c0a8e9a9ce94e31cb",
+                          "wintun":  "0.14.1"
+                      },
+    "native_sqlite_machine":  "AMD64 0x8664",
+    "files":  [
+                  {
+                      "path":  "v2rayN-windows-64/AmazTool.exe",
+                      "bytes":  12539723,
+                      "sha256":  "a7c6ca20adc98390a6d050572d7afcb93e44ddf84ef613ed1af7a7c275ac2af3"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/av_libglesv2.dll",
+                      "bytes":  5394096,
+                      "sha256":  "53191a77fe783cd757ca7767077c2a64a662e7043777a5b4ab74980d4a0b73e3"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/Country.mmdb",
+                      "bytes":  7705141,
+                      "sha256":  "f35228dd74b70ae0ac72dcd2b86d03e0510264e20a0ec21ebb6aa32fa4f85c38"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/EnableLoopback.exe",
+                      "bytes":  89184,
+                      "sha256":  "f8ed4cb272e52b7ef2b1c2672dbc6ace9f3ef752a38ce535265cfab891c9cbff"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/geoip-only-cn-private.dat",
+                      "bytes":  137252,
+                      "sha256":  "2acfadf1a0c37ff8f7b03f95fb7eea51c764f43ad54a06270f8c28f549ef7717"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/geoip.dat",
+                      "bytes":  16635240,
+                      "sha256":  "3cf2236c19063c1c80803368cca5ff589c5033129fdf9ba154230c689b81fc2a"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/geoip.metadb",
+                      "bytes":  8428327,
+                      "sha256":  "c670bf2052008c35ea74b884cc31a72334d4690d10f437459b4c0e439fd4acf4"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/geosite.dat",
+                      "bytes":  11134778,
+                      "sha256":  "a3cf618ad5a7e95b7aa6c397000991d667e389c97131643bfea615e781ed9d26"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/mihomo/mihomo.exe",
+                      "bytes":  47440384,
+                      "sha256":  "4316ff91fecec2fca9acb5612d7400ba228c069ffd325b1f17f46f1d4ef7e0cd"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/sing_box/libcronet.dll",
+                      "bytes":  9528832,
+                      "sha256":  "eee741046f0a3975124bae349aeac237aa306f3cc4de59ff5de070e74dbfdaeb"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/sing_box/sing-box.exe",
+                      "bytes":  81819136,
+                      "sha256":  "aad0ede010eafa7b277e520464f3a66fde820103d737eff739f40f3cc9451dcc"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-cn.srs",
+                      "bytes":  36555,
+                      "sha256":  "1799315b2256df02b6a4235c04c8c63a404d40f5803f98f8a4547d0c81b758ce"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-facebook.srs",
+                      "bytes":  526,
+                      "sha256":  "e4499fb61f32728e46fa36859acc4f9861364e49856c7e1c87fc06f0e85587d3"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-fastly.srs",
+                      "bytes":  571,
+                      "sha256":  "f705698238eb30a75c8541bde8139e3e9f655f560ac4f1b51b18a26c1b857823"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-google.srs",
+                      "bytes":  8269,
+                      "sha256":  "daffad7fd51544cdf819116a6e8e87465e0c94c128ab137c9cd47364ade364a9"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-netflix.srs",
+                      "bytes":  363,
+                      "sha256":  "c993b811c993938e532bc81b4bff918ce56af4af42a9fda8fbfa6aa815460990"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-private.srs",
+                      "bytes":  141,
+                      "sha256":  "67718b59769f6bee5ec5debcd08c0e4175d7faeff4d3b13cc572aaa4c2471bed"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-telegram.srs",
+                      "bytes":  127,
+                      "sha256":  "124b6decbcd871517927c15857b26c6898fe614cb2ef5e711d83835e9c700c2b"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geoip-twitter.srs",
+                      "bytes":  201,
+                      "sha256":  "6ce01a18f68e18e9cd009cfb087b43f5f5890292c614e1fcbac43ed33a0f0adf"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-category-ads-all.srs",
+                      "bytes":  1822029,
+                      "sha256":  "7ed5bb1ce1c842054ca5d05e0e9513b9749f4137336eeef821634bf996c6a12c"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-cn.srs",
+                      "bytes":  525770,
+                      "sha256":  "60fa2f8f94e42f20f7cd57d3b11d818ec483b1971d1357d9b6114ca07152db4d"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-geolocation-cn.srs",
+                      "bytes":  31911,
+                      "sha256":  "910fad0e290da0b05c6baf5b2da61f9dd70f5ea10735f56e4fab771246af9d50"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-gfw.srs",
+                      "bytes":  32162,
+                      "sha256":  "39157ae615e6a80037ed8061fb996fe9f640e92f6d4021218cd6a1b493c00826"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-google.srs",
+                      "bytes":  8669,
+                      "sha256":  "8df1e5b6570701d49f07fae51939649e7aa5cc3b7782400cc47a74323c6be962"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-greatfire.srs",
+                      "bytes":  187,
+                      "sha256":  "91df502e89dad1e695a1030330aaaaea04935b657d9b2bf02607822a3ecd6c4d"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/srss/geosite-private.srs",
+                      "bytes":  754,
+                      "sha256":  "c5e69590f0a73418b6240e38c3e8b43bddc5cbffae964998c0e0a276c9b41dce"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/xray/wintun.dll",
+                      "bytes":  427552,
+                      "sha256":  "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/bin/xray/xray.exe",
+                      "bytes":  36742144,
+                      "sha256":  "0d0fc0ea2b05641acb78c01fc36ad694e7b029861b2d5eb93da0e3e9fda9a98f"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/e_sqlite3.dll",
+                      "bytes":  1577472,
+                      "sha256":  "df961c00cad073e08c4e240da68f19891a57e22a9a3c3c23c9c1777ae75671c1"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/libHarfBuzzSharp.dll",
+                      "bytes":  1816088,
+                      "sha256":  "145ade963eba427027d5e1381db5d51a0ef9e98e9fef9efbfa6074ca20da246f"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/libSkiaSharp.dll",
+                      "bytes":  11628896,
+                      "sha256":  "7dec3ba900ab353491e6446f0083739924c6f8dd668832e2f09d38ebffdbbe1c"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/v2rayN.exe",
+                      "bytes":  106838149,
+                      "sha256":  "d648773d0e5106a86c7dd6198130b1af97a5621e8b550060b34b0bc6538a1058"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/v2rayN.icns",
+                      "bytes":  23708,
+                      "sha256":  "6a1ba2d66b0f9d78eda1d2fc1d9a2188a49a9904b025baaaefaa58d3b65286c9"
+                  },
+                  {
+                      "path":  "v2rayN-windows-64/v2rayN.png",
+                      "bytes":  8771,
+                      "sha256":  "dc5577105e8806e4ac70137052ddb796734b773888d7bc39a454cb0f1c0d7f31"
+                  }
+              ]
+}

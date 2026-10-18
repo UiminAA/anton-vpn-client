@@ -1,0 +1,138 @@
+Anton VPN - third-party software and corresponding sources
+========================================================
+
+The installer includes an UNMODIFIED official v2rayN Windows x64 desktop
+release archive. It contains no account, subscription, VPN server credential,
+or data copied from an existing user's installation. The installer creates
+configuration separately after the user supplies a personal connection link.
+
+Payload: v2rayN 7.25.4, v2rayN-windows-64-desktop.zip
+Original size: 143961123 bytes; expanded size: 362383108 bytes.
+SHA-256: cccf12be605ce947cb7c4646bfa77a98f680f099f4bf2d76c6a5fee4d2eb3820
+Official release: https://github.com/2dust/v2rayN/releases/tag/7.25.4
+Official archive:
+https://github.com/2dust/v2rayN/releases/download/7.25.4/v2rayN-windows-64-desktop.zip
+
+Each bundled program remains the work of its upstream authors. The installer
+is independently provided and does not imply endorsement by those authors.
+The upstream applications and their binaries have not been modified.
+
+Sources may be copied free of charge from the direct upstream links below.
+These source locations must also be linked next to the downloadable installer
+when it is redistributed, as directions to corresponding source under GPL
+section 6(d). Preserve these notices and the licenses directory. The installer
+source and build instructions are distributed separately with this release.
+
+v2rayN / AmazTool
+----------------
+Copyright (c) 2017-2026 2dust and contributors; GNU GPL v3.
+License: licenses/v2rayN-GPL-3.0.txt
+Source (tag 7.25.4, commit 7d6a967):
+https://github.com/2dust/v2rayN/tree/7.25.4
+https://github.com/2dust/v2rayN/archive/refs/tags/7.25.4.zip
+Build scripts: .github/workflows/build.yml and package-zip.yml in that tree.
+The desktop application is a self-contained .NET 10.0 Windows x64 build.
+Pinned direct package versions and upstream build properties are reproduced
+in licenses/v2rayN-Directory.Packages.props and Directory.Build.props.
+Rebuild using the source build workflow and its declared dependencies.
+
+The source includes the GlobalHotKeys Git submodule. Download it separately,
+or clone v2rayN recursively and check out the source tag above:
+https://github.com/2dust/GlobalHotKeys/tree/162d401dfe0140b41d1fa349b9aadb4060e739b1
+https://github.com/2dust/GlobalHotKeys/archive/162d401dfe0140b41d1fa349b9aadb4060e739b1.zip
+License: licenses/GlobalHotKeys-LICENSE.txt (WTFPL v2).
+
+sing-box 1.14.0
+--------------
+Copyright (c) 2022 nekohasekai and contributors; GPL v3 or later.
+License and naming notice: licenses/sing-box-LICENSE.txt; full GPL text is
+included as licenses/v2rayN-GPL-3.0.txt.
+Verified executable revision: 0b8995879f29a9b98ee027bc17b75e101445b238.
+Source and build instructions:
+https://github.com/SagerNet/sing-box/tree/v1.14.0
+https://github.com/SagerNet/sing-box/archive/refs/tags/v1.14.0.zip
+Go module dependencies are pinned by go.mod and go.sum in that source tree;
+retrieve them with `go mod download` when rebuilding. Build uses Go 1.26.7.
+The upstream version command prints the complete enabled build tag list.
+
+Mihomo 1.19.29
+--------------
+MetaCubeX and contributors; GPL v3. License: licenses/mihomo-GPL-3.0.txt.
+Source commit: e26714a181ac0e2fa803453c0a8e9a9ce94e31cb.
+https://github.com/MetaCubeX/mihomo/tree/v1.19.29
+https://github.com/MetaCubeX/mihomo/archive/refs/tags/v1.19.29.zip
+Build instructions and dependencies are in this tree (go.mod, go.sum).
+Bundled executable reports Go 1.26.5, Windows amd64, with_gvisor.
+
+Xray 26.9.9
+-----------
+XTLS and contributors; Mozilla Public License 2.0.
+License: licenses/Xray-MPL-2.0.txt.
+Verified executable revision: 52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120.
+https://github.com/XTLS/Xray-core/tree/52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120
+https://github.com/XTLS/Xray-core/archive/52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120.zip
+Dependencies and build instructions are included in the source tree.
+
+Native libraries and framework notices
+-------------------------------------
+Microsoft .NET runtime: Microsoft and contributors; MIT and component notices.
+licenses/dotnet-LICENSE.txt and dotnet-THIRD-PARTY-NOTICES.txt contain the
+official .NET 10.0 reference notices.
+https://github.com/dotnet/runtime/tree/release/10.0
+
+Avalonia 12.1.2: Avalonia contributors; MIT.
+License: licenses/Avalonia-LICENSE.txt.
+https://github.com/AvaloniaUI/Avalonia/tree/12.1.2
+
+SkiaSharp: Microsoft and contributors; MIT.
+License: licenses/SkiaSharp-LICENSE.txt.
+https://github.com/mono/SkiaSharp/tree/v3.119.4
+Native Skia and ANGLE source/license dependencies:
+Licenses: licenses/Skia-LICENSE.txt and ANGLE-LICENSE.txt.
+https://github.com/google/skia
+https://github.com/google/angle
+
+HarfBuzz: HarfBuzz authors; MIT-style license.
+License: licenses/HarfBuzzSharp-LICENSE.txt.
+https://github.com/harfbuzz/harfbuzz
+https://github.com/mono/SkiaSharp
+
+SQLite (e_sqlite3.dll): SQLite authors; public domain.
+https://www.sqlite.org/copyright.html
+Native package selected by upstream: Repobot.SQLite.Unofficial 3.53.4.1.
+https://github.com/sqlite/sqlite
+
+Go runtime and standard library: The Go Authors; BSD-style license.
+License: licenses/Go-LICENSE.txt.
+https://github.com/golang/go/tree/go1.26.7
+
+Cronet native library (libcronet.dll): Chromium / naiveproxy authors and
+contributors; BSD-style and individual third-party terms.
+Licenses: licenses/Chromium-LICENSE.txt (BSD-style) and
+cronet-go-LICENSE.txt (GPL v3 or later).
+https://github.com/SagerNet/cronet-go
+https://github.com/klzgrad/naiveproxy
+https://github.com/chromium/chromium
+The SagerNet source pins its native naiveproxy submodule and build scripts.
+
+Wintun 0.14.1: Copyright (c) 2018-2021 WireGuard LLC.
+The prebuilt signed DLL is accompanied by the upstream prebuilt binary
+license, which permits distribution alongside software that uses only the
+permitted Wintun API: licenses/Wintun-Prebuilt-Binaries-License.txt.
+The Wintun source license is GPL v2: licenses/Wintun-COPYING.txt.
+Official source and build instructions:
+https://git.zx2c4.com/wintun/tree/?h=0.14.1
+https://git.zx2c4.com/wintun/snapshot/wintun-0.14.1.tar.xz
+https://github.com/WireGuard/wintun
+
+Routing databases bundled by the official v2rayN archive:
+https://github.com/2dust/v2rayN-core-bin
+https://github.com/Loyalsoldier/v2ray-rules-dat
+https://github.com/MetaCubeX/meta-rules-dat
+https://github.com/SagerNet/sing-geoip
+https://github.com/SagerNet/sing-geosite
+They remain distributed as supplied by the official v2rayN release.
+
+Other managed and Go dependencies retain their respective upstream licenses.
+Their exact dependencies, source locations, copyright statements and build
+instructions are available through the pinned upstream project trees above.
